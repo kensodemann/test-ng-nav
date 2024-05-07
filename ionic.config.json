@@ -1,0 +1,7 @@
+{
+  "name": "test-ng-nav",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
