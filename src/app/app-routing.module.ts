@@ -19,8 +19,7 @@ const routes: Routes = [
   },
   {
     path: 'sub2',
-    loadChildren: () =>
-      import('./sub2/sub2.module').then((m) => m.Sub2PageModule),
+    loadComponent: () => import('./sub2/sub2.page').then((c) => c.Sub2Page),
   },
 ];
 
